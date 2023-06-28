@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: catloj-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
