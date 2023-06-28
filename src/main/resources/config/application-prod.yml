@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: cat-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/welliksp/cat-config-server
+          username: welliksp
+          password: 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
+          default-label: main
+          search-paths:
+            - 'cat-server*'
