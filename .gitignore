@@ -1,7 +1,7 @@
- .gradle/
-  gradle/
-  gradlew
-  gradlew.bat
+.gradle/
+gradle/
+gradlew
+gradlew.bat
 .idea
 *.iws
 *.iml
